@@ -15,26 +15,24 @@ const Hero = () => {
         </span>
         , Front End Developer
       </h1>
-      <p className="mb-8 text-lg text-gray-400">
-        I love building things for the web{' '}
+      <p className="mb-8 text-2xl font-semibold text-gray-400">
+        Crafting modern, responsive, and user-friendly web experiences
       </p>
-      <div className="mt-12 space-x-4">
-        {/* LinkedIn Button */}
+      <div className="flex justify-center space-x-10">
         <a
           href="https://www.linkedin.com/in/ana-cascante-de-quadras-4301521a/"
           target="_blank"
-          rel="noopener noreferrer"
-          className="inline transform rounded-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 px-6 py-3 text-lg text-yellow-50 transition-transform duration-300 hover:scale-150"
+          rel="noreferrer"
+          className="inline-flex transform items-center justify-center rounded-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 p-4 text-xl font-bold text-yellow-50 transition-transform duration-300 hover:scale-150"
         >
           Connect with me!
         </a>
 
-        {/* Canva CV Button */}
         <a
           href="https://www.canva.com/design/DAGIZrLBAV8/jcvItSPstlJa_F_akftVYg/view?utm_content=DAGIZrLBAV8&utm_campaign=designshare&utm_medium=link&utm_source=editor"
           target="_blank"
-          rel="noopener noreferrer"
-          className="inline transform rounded-full bg-gradient-to-r from-pink-500 via-orange-500 to-yellow-500 px-6 py-3 text-lg text-yellow-50 transition-transform duration-300 hover:scale-150"
+          rel="noreferrer"
+          className="inline-flex transform items-center justify-center rounded-full bg-gradient-to-r from-pink-500 via-orange-500 to-yellow-500 px-6 py-3 text-xl font-bold text-yellow-50 transition-transform duration-300 hover:scale-150"
         >
           Resume
         </a>
