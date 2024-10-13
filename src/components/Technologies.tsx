@@ -21,7 +21,7 @@ import {
 
 const Technologies = () => {
   return (
-    <div id="technologies" className="my-12 bg-black px-4 py-12 text-white">
+    <div id="technologies" className="my-0 bg-black px-4 py-12 text-white">
       <h2 className="mb-6 text-center text-3xl font-bold">
         Tech Stack & Tools
       </h2>

@@ -10,7 +10,7 @@ const About = () => {
           <img
             src={HeroImage}
             alt="my picture"
-            className="h-90 mb-8 w-72 rotate-90 rounded object-cover py-10 md:mb-0"
+            className="h-90 mb-8 w-72 rotate-90 rounded object-cover py-6 md:mb-0"
           />
           <div className="flex-1">
             <p className="mb-8 text-lg">
