@@ -1,8 +1,8 @@
 import { FaGithub } from 'react-icons/fa';
 import { SiRender } from 'react-icons/si';
-import Eazyshop from '../images/Eazy-shop.png';
-import Exam2 from '../images/Exam2.png';
-import norway from '../images/norway.png';
+import Eazyshop from '../assets/Eazyshop.png';
+import Exam2 from '../assets/Exam2.png';
+import norway from '../assets/norway.png';
 
 const projects = [
   {
@@ -27,7 +27,7 @@ const projects = [
   {
     id: 3,
     title: 'Auction House',
-    description: 'Stay tuned! This project will be available soon🤓',
+    description: 'Stay tuned! This project and more will be soon available.',
     image: norway,
     github: 'https://www.example.com',
     link: 'https://www.example.com',

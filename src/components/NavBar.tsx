@@ -6,7 +6,7 @@ import { GiBookshelf } from 'react-icons/gi';
 const NavBar = () => {
   return (
     <nav
-      className="flex h-24 items-center border-b-4 border-indigo-500 bg-black px-8 text-yellow-50 md:px-16 lg:px-24"
+      className="fixed left-0 top-0 z-50 flex h-24 w-full items-center border-b-4 border-indigo-500 bg-black px-8 text-yellow-50 md:px-16 lg:px-24"
       role="navigation"
     >
       <div className="flex w-full items-center justify-between">
