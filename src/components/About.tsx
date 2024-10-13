@@ -1,4 +1,5 @@
 import HeroImage from '../assets/HeroImage.png';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -24,22 +25,23 @@ const About = () => {
               and spending time with my child and exploring new adventures
               together.
             </p>
-            <div className="space-y-4">
+            <div className="flex justify-center space-x-10">
               <a
                 href="https://www.linkedin.com/in/ana-cascante-de-quadras-4301521a/"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:scale- inline transform rounded-full bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-4 py-2 text-yellow-50 transition-transform duration-300 hover:scale-150"
+                className="inline-flex transform items-center justify-center rounded-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 p-4 text-yellow-50 transition-transform duration-300 hover:scale-150"
               >
-                LinkedIn
+                <FaLinkedin size="2em" />
               </a>
+
               <a
                 href="https://github.com/AnaCascante"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:scale- inline transform rounded-full bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-4 py-2 text-yellow-50 transition-transform duration-300 hover:scale-150"
+                className="inline-flex transform items-center justify-center rounded-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 p-4 text-yellow-50 transition-transform duration-300 hover:scale-150"
               >
-                Github
+                <FaGithub size="2em" />
               </a>
             </div>
           </div>
