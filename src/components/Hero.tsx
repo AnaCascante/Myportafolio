@@ -2,7 +2,7 @@ import HeroImage from '../assets/HeroImage.png';
 
 const Hero = () => {
   return (
-    <div className="bg-black py-16 text-center text-yellow-50">
+    <div className="bg-black pb-16 pt-32 text-center text-yellow-50">
       <img
         src={HeroImage}
         alt="my picture"
@@ -15,7 +15,7 @@ const Hero = () => {
         </span>
         , Front End Developer
       </h1>
-      <p className="text- mt-4 text-lg text-gray-400">
+      <p className="mt-4 text-lg text-gray-400">
         I love building things for the web{' '}
       </p>
       <div className="mt-8 space-x-4">
