@@ -5,7 +5,10 @@ export default function Footer() {
     <footer className="fixed bottom-0 left-0 flex w-full items-center justify-center border-t-4 border-indigo-500 bg-black p-6 text-yellow-50">
       {/* Centered text */}
       <div className="text-center text-sm md:text-base">
-        &copy; 2024 All rights reserved by <strong>Ana Cascante</strong>
+        &copy; 2024 All rights reserved by{' '}
+        <span className="block sm:inline">
+          <strong>Ana Cascante</strong>
+        </span>
       </div>
       <div className="group absolute right-6">
         <button
