@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './pages/HomePage';
+import { BrowserRouter as Router } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Hero from './components/Hero';
 
 //import AboutPage from '../../pages/VenuePage';
 //import ProjectsPage from '../../pages/LoginPage';
@@ -15,9 +15,7 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-      </Routes>
+      <Hero />
       <Footer />
     </Router>
   );
