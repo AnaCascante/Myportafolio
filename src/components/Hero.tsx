@@ -24,7 +24,7 @@ const Hero = () => {
           href="https://www.linkedin.com/in/ana-cascante-de-quadras-4301521a/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:scale- inline transform rounded-full bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-6 py-3 text-yellow-50 transition-transform duration-300 hover:scale-150"
+          className="inline transform rounded-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 px-6 py-3 text-lg text-yellow-50 transition-transform duration-300 hover:scale-150"
         >
           Connect with me!
         </a>
@@ -34,7 +34,7 @@ const Hero = () => {
           href="https://www.canva.com/design/DAGIZrLBAV8/jcvItSPstlJa_F_akftVYg/view?utm_content=DAGIZrLBAV8&utm_campaign=designshare&utm_medium=link&utm_source=editor"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:scale- inline transform rounded-full bg-gradient-to-r from-pink-500 from-10% via-orange-500 via-30% to-yellow-500 to-90% px-6 py-3 text-yellow-50 transition-transform duration-300 hover:scale-150"
+          className="inline transform rounded-full bg-gradient-to-r from-pink-500 via-orange-500 to-yellow-500 px-6 py-3 text-lg text-yellow-50 transition-transform duration-300 hover:scale-150"
         >
           Resume
         </a>
