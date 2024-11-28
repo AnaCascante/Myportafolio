@@ -25,7 +25,7 @@ const Hero = () => {
           rel="noreferrer"
           className="inline-flex transform items-center justify-center rounded-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 p-4 text-xl font-bold text-yellow-50 transition-transform duration-300 hover:scale-150"
         >
-          Connect with me!
+          Connect with me 😎
         </a>
 
         <a
