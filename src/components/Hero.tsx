@@ -29,7 +29,7 @@ const Hero = () => {
         </a>
 
         <a
-          href="https://www.canva.com/design/DAGIZrLBAV8/jcvItSPstlJa_F_akftVYg/view?utm_content=DAGIZrLBAV8&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+          href="https://1drv.ms/w/c/dd3471541ce00fb4/Ef4q6y4i5VJCgLIQHvClqaYBy4E4gsCJZ5bXBUHxG4GSYA?e=ir4nWL"
           target="_blank"
           rel="noreferrer"
           className="inline-flex transform items-center justify-center rounded-full bg-gradient-to-r from-pink-500 via-orange-500 to-yellow-500 px-6 py-3 text-xl font-bold text-yellow-50 transition-transform duration-300 hover:scale-150"
